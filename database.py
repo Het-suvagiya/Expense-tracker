@@ -12,8 +12,8 @@ except:
 ORACLE_HOST = "localhost"
 ORACLE_PORT = 1521
 ORACLE_SID = "xe"
-ORACLE_USER = "system"
-ORACLE_PASSWORD = "admin"
+ORACLE_USER = "username" #enter you database username
+ORACLE_PASSWORD = "password" #enter you database password
 
 def get_connection():
     """
