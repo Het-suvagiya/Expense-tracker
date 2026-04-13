@@ -48,8 +48,8 @@ Ensure that Oracle 11g XE is active. Open `database.py` and verify your credenti
 ORACLE_HOST = "localhost"      
 ORACLE_PORT = 1521            
 ORACLE_SID = "xe"             
-ORACLE_USER = "system"        # Your Oracle username
-ORACLE_PASSWORD = "admin"     # Your Oracle password
+ORACLE_USER = "username"        # Your Oracle username
+ORACLE_PASSWORD = "password"     # Your Oracle password
 ```
 
 ### 3. Initialize the Oracle Tables
